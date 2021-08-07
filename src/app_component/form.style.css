@@ -1,0 +1,72 @@
+form {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    
+  }
+  
+  form input[name="city"],
+  form input[name="country"] {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+  }
+  form input:focus{
+    background-color: transparent;
+    box-shadow: none !important;
+    
+  }
+  .date{
+    font-size: 22px;
+  }
+  .btn{
+    background-color: rgba(85, 255, 210, 0.686);
+    border-radius: 1rem;
+    width: 150px;
+  }
+  .btn:hover{
+    background-color: rgba(85, 255, 210, 0.481);
+  }@media (max-width:767px){
+    form{
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+    }
+    #btn{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .btn{
+      width: 300px;
+    }
+    .date{
+      font-size: 20px;
+    }
+  }
+  @media (max-width:575px){
+    form{
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+    }
+    #btn{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .btn{
+      width: 200px;
+    }
+    .date{
+      font-size: 18px;
+    }
+  }
+  
